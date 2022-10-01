@@ -13,7 +13,7 @@ class Player extends Component {
                     </div>
                     <div className="btn-start">
                         <FontAwesomeIcon icon={faPlay} />
-                        <FontAwesomeIcon icon={faPause} />
+                        {/* <FontAwesomeIcon icon={faPause} /> */}
                     </div>
                     <div className="btn-next">
                         <FontAwesomeIcon icon={faForward} />

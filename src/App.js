@@ -12,7 +12,6 @@ function App() {
       <Music musicName="city"/>
       <Music musicName="snowy"/>
       <Music musicName="campfire"/>
-      <Player />
     </div>
   );
 }

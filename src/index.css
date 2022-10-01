@@ -1,4 +1,14 @@
-div.root{
+.background{
+    background-image:url("./assets/images/rainy.png");
+    filter:grayscale(70%);
+    width:100vw;
+    max-width: 100%;
+    height:100vh;
+    max-height: 100%;
+    position:absolute;
+}
+
+div#root{
     position:relative;
     
     display:flex;
@@ -9,71 +19,114 @@ div.root{
     max-width: 100%;
     height:100vh;
     max-height: 100%;
+
+    background-size: 100% 100%;
 }
 
-div.root div.Music-Section {
 
+div#root div.Music-Section {
+    width:700px;
+    height:700px;
+
+    position:relative;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-div.root div.Music-Section div.music{
+div#root div.Music-Section div.music{
     position:absolute;
+    background-color: darkslategrey;
+
+    width:150px;
+    height:150px;
+    background-size: 150px 150px;
+
+    border: white 5px solid;
+    border-radius: 50%;
+}
+
+div#root div.Music-Section div.music:nth-child(1) {
+    top:0px;
+    background-image:url("./assets/images/valley.png");
+}
+div#root div.Music-Section div.music:nth-child(2) {
+    top:100px;
+    right:100px;
+    background-image:url("./assets/images/sushine.png");
+}
+div#root div.Music-Section div.music:nth-child(3) {
+    right:0px;
+    background-image:url("./assets/images/ocean.png");
+}
+div#root div.Music-Section div.music:nth-child(4) {
+    right:100px;
+    bottom:100px;
+    background-image:url("./assets/images/rainy.png");
+}
+div#root div.Music-Section div.music:nth-child(5) {
+    bottom:0px;    
+    background-image:url("./assets/images/fallingLeaves.png");
+}
+div#root div.Music-Section div.music:nth-child(6) {
+    left:100px;
+    bottom:100px;
+    background-image:url("./assets/images/city.png");
+}
+div#root div.Music-Section div.music:nth-child(7) {
+    left:0px;    
+    background-image:url("./assets/images/snowy.png");
+}
+div#root div.Music-Section div.music:nth-child(8) {
+    left:100px;
+    top:100px;
+    background-image:url("./assets/images/campfire.png");
+}
+
+div#root div.Music-Section div.Music-Player {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width:200px;
+    height:100px;
+
+    background-color: aqua;
+}
+
+div#root div.Music-Section div.Music-Player div.Music-Player-Btns{
+    width:90%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size:25px;
+    color:white;
+}
+
+div#root div.Music-Section div.Music-Player div.Music-Player-Btns div.btn-before{
 
 }
 
-div.root div.Music-Section div.music:nth-child(0) {
-
-}
-div.root div.music:nth-child(1) {
-    
-}
-div.root div.Music-Sectiondiv.music:nth-child(2) {
-    
-}
-div.root div.Music-Sectiondiv.music:nth-child(3) {
-    
-}
-div.root div.Music-Sectiondiv.music:nth-child(4) {
-    
-}
-div.root div.Music-Sectiondiv.music:nth-child(5) {
-    
-}
-div.root div.Music-Sectiondiv.music:nth-child(6) {
-    
-}
-div.root div.Music-Sectiondiv.music:nth-child(7) {
-    
-}
-
-div.root div.Music-Sectiondiv.Music-Player {
+div#root div.Music-Section div.Music-Player div.Music-Player-Btns div.btn-play{
 
 }
 
-div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Btns{
+div#root div.Music-Section div.Music-Player div.Music-Player-Btns div.btn-pause{
 
 }
 
-div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Btns div.btn-before{
-
-}
-
-div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Btns div.btn-play{
-
-}
-
-div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Btns div.btn-pause{
-
-}
-
-div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Btns div.btn-next{
+div#root div.Music-Section div.Music-Player div.Music-Player-Btns div.btn-next{
 
 }
 
 
-div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Timeline{
+div#root div.Music-Section div.Music-Player div.Music-Player-Timeline{
 
 }
 
-div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Timeline input{
+div#root div.Music-Section div.Music-Player div.Music-Player-Timeline input{
 
 }
