@@ -1,0 +1,79 @@
+div.root{
+    position:relative;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    width:100vw;
+    max-width: 100%;
+    height:100vh;
+    max-height: 100%;
+}
+
+div.root div.Music-Section {
+
+}
+
+div.root div.Music-Section div.music{
+    position:absolute;
+
+}
+
+div.root div.Music-Section div.music:nth-child(0) {
+
+}
+div.root div.music:nth-child(1) {
+    
+}
+div.root div.Music-Sectiondiv.music:nth-child(2) {
+    
+}
+div.root div.Music-Sectiondiv.music:nth-child(3) {
+    
+}
+div.root div.Music-Sectiondiv.music:nth-child(4) {
+    
+}
+div.root div.Music-Sectiondiv.music:nth-child(5) {
+    
+}
+div.root div.Music-Sectiondiv.music:nth-child(6) {
+    
+}
+div.root div.Music-Sectiondiv.music:nth-child(7) {
+    
+}
+
+div.root div.Music-Sectiondiv.Music-Player {
+
+}
+
+div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Btns{
+
+}
+
+div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Btns div.btn-before{
+
+}
+
+div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Btns div.btn-play{
+
+}
+
+div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Btns div.btn-pause{
+
+}
+
+div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Btns div.btn-next{
+
+}
+
+
+div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Timeline{
+
+}
+
+div.root div.Music-Sectiondiv.Music-Player div.Music-Player-Timeline input{
+
+}

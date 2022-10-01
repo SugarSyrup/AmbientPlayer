@@ -3,7 +3,7 @@ import Music from "./Components/Music";
 
 function App() {
   return (
-    <div class="Music-Section">
+    <div className="Music-Section">
       <Music musicName="valley"/>
       <Music musicName="sunshine"/>
       <Music musicName="ocean"/>
