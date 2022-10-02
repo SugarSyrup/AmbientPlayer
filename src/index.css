@@ -69,7 +69,7 @@ div#root div.custom div.MusicSection div.music:hover{
 
 div#root div.custom div.MusicSection div.music:nth-child(1) {
     top:0px;
-    background-image:url("./assets/images/sushine.png");
+    background-image:url("./assets/images/sunshine.png");
 }
 div#root div.custom div.MusicSection div.music:nth-child(1):hover {
     top:-15px;
