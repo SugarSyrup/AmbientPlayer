@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ambientplayer/static/css/main.5888f11d.css",
+    "main.js": "/ambientplayer/static/js/main.6268045e.js",
+    "static/media/sunshine.mp3": "/ambientplayer/static/media/sunshine.d1d2eaf18bac7472b4be.mp3",
+    "static/media/valley.mp3": "/ambientplayer/static/media/valley.257fb6a7b9d584981bc5.mp3",
+    "static/media/fallingLeaves.mp3": "/ambientplayer/static/media/fallingLeaves.d659f24c0107333b3e0d.mp3",
+    "static/media/ocean.mp3": "/ambientplayer/static/media/ocean.50088bf0c6f6a4bffdcf.mp3",
+    "static/media/snowy.mp3": "/ambientplayer/static/media/snowy.e59fa08538c94195a9e6.mp3",
+    "static/media/city.mp3": "/ambientplayer/static/media/city.2016ca1837f677716c9c.mp3",
+    "static/media/fallingLeaves.png": "/ambientplayer/static/media/fallingLeaves.4f954b87581ffa5cbd3f.png",
+    "static/media/rainy.mp3": "/ambientplayer/static/media/rainy.d89011c78872c4312296.mp3",
+    "static/media/snowy.png": "/ambientplayer/static/media/snowy.f91f425d9c22d0c4f384.png",
+    "static/media/sunshine.png": "/ambientplayer/static/media/sunshine.3911f51182a620d51a69.png",
+    "static/media/campfire.mp3": "/ambientplayer/static/media/campfire.52016d5b457e9b8d8d07.mp3",
+    "static/media/rainy.png": "/ambientplayer/static/media/rainy.a885a23175bb9de59738.png",
+    "static/media/city.png": "/ambientplayer/static/media/city.b37d6657f6c396362fc4.png",
+    "static/media/campfire.png": "/ambientplayer/static/media/campfire.ecb6f27fc6ef56501b2d.png",
+    "static/media/valley.png": "/ambientplayer/static/media/valley.94eb6f2762e774e5697b.png",
+    "static/media/ocean.png": "/ambientplayer/static/media/ocean.1c2d7efe6229f9b4f18d.png",
+    "index.html": "/ambientplayer/index.html",
+    "main.5888f11d.css.map": "/ambientplayer/static/css/main.5888f11d.css.map",
+    "main.6268045e.js.map": "/ambientplayer/static/js/main.6268045e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5888f11d.css",
+    "static/js/main.6268045e.js"
+  ]
+}
