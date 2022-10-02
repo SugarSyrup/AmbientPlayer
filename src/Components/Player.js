@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faVolumeHigh, faVolumeOff  } from "@fortawesome/free-solid-svg-icons";
 
+
+
 class Player extends Component {
     render() {
         return (
@@ -16,9 +18,6 @@ class Player extends Component {
                         <FontAwesomeIcon icon={faVolumeHigh} />
                         {/* <FontAwesomeIcon icon="fa-solid fa-volume-slash" /> */}
                     </div>
-                </div>
-                <div className="Music-Player-Timeline">
-                    <input type="range"></input>
                 </div>
             </div>
         )
