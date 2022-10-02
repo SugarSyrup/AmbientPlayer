@@ -18,7 +18,6 @@ class App extends Component {
       <div className="custom">
         <BackGround currentMusic={this.state.music}/>
         <Music MusicList={this.state.musicList} onClickMusic={function(musicName) {
-          console.log(musicName);
           this.setState({
             music:musicName,
           })

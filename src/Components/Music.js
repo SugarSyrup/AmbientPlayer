@@ -28,6 +28,7 @@ class Music extends Component {
         return (
             <div className="MusicSection">
                 {lists}
+                <span className="LOGO">Ambient Player</span>
             </div>
         )
     }
