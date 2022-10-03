@@ -1,21 +1,33 @@
 # Amibent Player
 
-# 기능/특징
+LoFi 감성의 노래를 재생할 수 있는 사이트 입니다. 사용언어: React, JavaScript, CSS
 
-: 계절과 날씨의 느낌을 주는 8가지 음악 재생이 가능 한 웹 사이트
+A WebSite for playing Lo-fi music, built with React, JavaScript, CSS
 
-# 구조
+# Project Status
 
-: 특별한것 없이 루트 페이지에서 클릭만으로 모두 이뤄질수 있도록 구성 예정
+정적인 페이지로 완성 : (github-pages)[https://sugarsyrup.github.io/ambientplayer/]
 
-1. 8가지 음악의 background-image가 페이지에 보일 예정
-   -> 선택시 해당 음악 재생 + background-image 변경
-   -> 현재 재생중인 음악은 그에 맞는 아이콘 표시
+추후.. 재 개발 예정
 
-2. 뒤로가기, 앞으로가기, 재생/일시정지 3개 버튼 + 음량 조절
+# Project Screen Shot(s)
 
-3. 시간 남으면 interative 하게 모바일 환경과 PC 환경의 CSS에 차이 주기
+# Installation and Setup Instructions
 
-- Chrome창을 최대로 축소 시키면 휴대폰 백그라운드 재생처럼 아이콘이 남을 수 있게
+Installation : `npm install`
 
-# 구현 예정
+To Start Server : `npm run start`
+
+To Visit App : `localhost:3000`
+
+# Technologies
+
+# Reflection
+
+# To Be Implements
+
+[] refactoring : useRef
+[] refactoring : styled-component
+[] use use-sound
+[] interactive UI
+[] Connect DB => Add Many Songs
